@@ -6,6 +6,7 @@ import doctorImg from "./images/doctorImg.jpg";
 import { Redirect } from 'react-router-dom';
 
 export default function Home() {
+    //redirect to manage routing from javascript function
     const [redirect,setRedirect] = useState(false);
     return (
         <>
